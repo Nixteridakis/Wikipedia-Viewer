@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://use.fontawesome.com/6e0d96c848.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="wiki viewer.css">
+
+
+
+
+
+</head>
+
+<body>
+
+  <div class="searchBox">
+    <p1>Click here for a random article</p1>
+    <div class="search-wrapper">
+      <div class="input-holder">
+        <input type="text" class="search-input" id = "fetch" placeholder="Type to search" onkeypress = 'runScript(event)' />
+        <button class="search-icon" onclick="searchToggle(this, event); runScript2();"><span></span></button>
+      </div>
+      <span class="close" onclick="searchToggle(this, event); "></span>
+
+    </div>
+    <p2>Click icon to search</p2>
+    <button id="lucky" onclick="random()">Feeling Lucky?</button>
+
+
+  </div>  
+  
+</body>
+
+</html>
