@@ -1,4 +1,4 @@
-# Wikipedia-Viewer
+# Wikipedia Explorer
 
 You can view the project here: https://nixteridakis.github.io/Wikipedia-Viewer/
 
